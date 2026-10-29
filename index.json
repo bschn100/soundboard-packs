@@ -19,6 +19,26 @@
       "soundCount": 5,
       "totalBytes": 80758,
       "manifest": "packs/arcade-starter/pack.json"
+    },
+    {
+      "id": "drum-machine",
+      "name": "Drum Machine",
+      "description": "Six punchy synthesized drum hits for tapping out beats.",
+      "version": 1,
+      "palette": {
+        "name": "Midnight Groove",
+        "colorsHex": [
+          "#E63946",
+          "#F4A261",
+          "#2A9D8F",
+          "#457B9D",
+          "#B5179E",
+          "#E9C46A"
+        ]
+      },
+      "soundCount": 6,
+      "totalBytes": 62242,
+      "manifest": "packs/drum-machine/pack.json"
     }
   ]
 }

@@ -1,0 +1,25 @@
+# Sources for this pack live next to this file; build.py encodes them into sounds/.
+name: Drum Machine
+description: Six punchy synthesized drum hits for tapping out beats.
+palette:
+  name: Midnight Groove
+  colors:
+    - "#E63946"
+    - "#F4A261"
+    - "#2A9D8F"
+    - "#457B9D"
+    - "#B5179E"
+    - "#E9C46A"
+sounds:
+  - file: kick.wav
+    name: Kick
+  - file: snare.wav
+    name: Snare
+  - file: hi-hat.wav
+    name: Hi-Hat
+  - file: clap.wav
+    name: Clap
+  - file: tom.wav
+    name: Tom
+  - file: cowbell.wav
+    name: Cowbell

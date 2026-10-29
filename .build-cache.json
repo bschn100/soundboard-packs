@@ -23,5 +23,35 @@
     "source": "ff6924d9b0b85c8c3de38dca1493c2a2c2b443f2cf37d03909abe1eea95b6f16",
     "settings": "-f m4af -d aac -b 128000",
     "output": "2ade47dfd54b419ce305647c57ac05823c5ab65698413f69dcde4ca08326762a"
+  },
+  "packs/drum-machine/sounds/clap.m4a": {
+    "source": "0e2bb39d25e22510f3300bba0d9a6d4c0e5429f6640fb92c404d673762317061",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "cc6284570a7703952347f2214674251f2a4e8989f2f1427d9fb513e669b27974"
+  },
+  "packs/drum-machine/sounds/cowbell.m4a": {
+    "source": "0d59375f54ccc748a05a40f2beaa2e30da8b0eb245e71c426e0e6dd829d6aecb",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "4954c82b4402ed8a51ce91d62ecf0d96a926d093f4c42d577718130544220675"
+  },
+  "packs/drum-machine/sounds/hi-hat.m4a": {
+    "source": "805da2239b275a4c6d150e7173fd22597fa0d0596fd24d6044e8e248f395f518",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "de0619371d8a77c86d4b037516f36dd5f7e3a7ed3a185caf455924b633fa1f55"
+  },
+  "packs/drum-machine/sounds/kick.m4a": {
+    "source": "61af828a7e12cdbcec55f3452945fc96d7fadcbeeafe742a33ec80ff1f0d7c9e",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "1eba2507dc0da4f8a38526cf67f4743d8f5e1758b6ef67a6991b1551d6fac382"
+  },
+  "packs/drum-machine/sounds/snare.m4a": {
+    "source": "5c2fbdb04fb33d47bbfda975b11edda3a7204bc7e1f249da11fbb951fd52f46c",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "46b0b567730ab73cd6f0d05368d602aabff0e17b1d7ec63fad3315113f4f3f40"
+  },
+  "packs/drum-machine/sounds/tom.m4a": {
+    "source": "7e281cc1a1f306a7bbba48e87d244f0200703c5ff8511e02326dd8f8aab5cfb5",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "cf89e6928eee6e414dac71ad31c1f9d9a0cb0660e9f32447de331ce0e972bc1b"
   }
 }
