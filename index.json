@@ -1,0 +1,24 @@
+{
+  "formatVersion": 1,
+  "packs": [
+    {
+      "id": "arcade-starter",
+      "name": "Arcade Starter",
+      "description": "Five tiny synthesized arcade blips, booms and chimes.",
+      "version": 1,
+      "palette": {
+        "name": "Neon Sunset",
+        "colorsHex": [
+          "#FF4F79",
+          "#FFB238",
+          "#3DDC97",
+          "#4CC9F0",
+          "#9B5DE5"
+        ]
+      },
+      "soundCount": 5,
+      "totalBytes": 80758,
+      "manifest": "packs/arcade-starter/pack.json"
+    }
+  ]
+}

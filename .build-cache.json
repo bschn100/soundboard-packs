@@ -1,0 +1,27 @@
+{
+  "packs/arcade-starter/sounds/boom.m4a": {
+    "source": "4052354424a333196ce541be6277c62c5075562c9199669eea97fa7eae7c222c",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "c46973495b962ba7aa25a16b6bfee993077b2c609ed14b76d7ea55bc413302b1"
+  },
+  "packs/arcade-starter/sounds/chime.m4a": {
+    "source": "7168690610e05db6b9636c9224073a312466bfed90ea0859f26421a4be29c953",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "70e93b1257fa26dc5021ae466511bed08409517eb715418b27d9cdeb6d4d861a"
+  },
+  "packs/arcade-starter/sounds/coin.m4a": {
+    "source": "5ad6c430bbd673cc3221ef2c9d06c6dbd3dea0c069d0bc91f0f98cd56c130e47",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "00e921cea68b2f168f8c5b6b57051ee5dbb3479a9c601d52e558586f222f2ac5"
+  },
+  "packs/arcade-starter/sounds/laser.m4a": {
+    "source": "1ff6d6151e95ca96ef00e638c2e9d7cde32780b62b3fa7bdfe5b7c7f6301f233",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "a9307b47336ff569ebf73d6541ecee4b2c0cbbd8aba38507138da0bf67c6a005"
+  },
+  "packs/arcade-starter/sounds/power-up.m4a": {
+    "source": "ff6924d9b0b85c8c3de38dca1493c2a2c2b443f2cf37d03909abe1eea95b6f16",
+    "settings": "-f m4af -d aac -b 128000",
+    "output": "2ade47dfd54b419ce305647c57ac05823c5ab65698413f69dcde4ca08326762a"
+  }
+}

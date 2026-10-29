@@ -1,0 +1,26 @@
+# Sources for this pack live next to this file; build.py encodes them into sounds/.
+name: Arcade Starter
+description: Five tiny synthesized arcade blips, booms and chimes.
+palette:
+  name: Neon Sunset
+  colors:
+    - "#FF4F79"
+    - "#FFB238"
+    - "#3DDC97"
+    - "#4CC9F0"
+    - "#9B5DE5"
+sounds:
+  - file: coin.wav
+    name: Coin
+  - file: power-up.wav
+    name: Power Up
+    color: 2
+  - file: laser.wav
+    name: Laser
+    color: 4
+  - file: boom.wav
+    name: Boom
+    color: 0
+  - file: chime.wav
+    name: Chime
+    color: 3
