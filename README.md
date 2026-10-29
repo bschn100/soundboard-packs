@@ -4,7 +4,7 @@ Downloadable sound packs for the Soundboard iOS app, served by GitHub Pages at
 <https://bschn100.github.io/soundboard-packs/>.
 
 The app reads [`index.json`](index.json) to list the available packs. Each entry points to a
-pack manifest at `packs/<id>/pack.json`, which lists the pack's `.m4a` files along with
+pack manifest at `packs/<id>/sounds/pack.json`, which lists the pack's `.m4a` files along with
 their sizes and SHA-256 hashes.
 
 ## Adding a pack
@@ -66,7 +66,7 @@ build.py                      the build script
 packs/<id>/pack.yml           you write this
 packs/<id>/*.wav, ...         your source audio
 packs/<id>/sounds/*.m4a       generated AAC files
-packs/<id>/pack.json          generated manifest
+packs/<id>/sounds/pack.json   generated manifest (file names are bare, e.g. "kick.m4a")
 ```
 
 ## Licensing

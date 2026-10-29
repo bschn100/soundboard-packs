@@ -18,42 +18,42 @@
   "sounds": [
     {
       "name": "Kick",
-      "file": "sounds/kick.m4a",
+      "file": "kick.m4a",
       "bytes": 7082,
       "sha256": "1eba2507dc0da4f8a38526cf67f4743d8f5e1758b6ef67a6991b1551d6fac382",
       "colorIndex": 0
     },
     {
       "name": "Snare",
-      "file": "sounds/snare.m4a",
+      "file": "snare.m4a",
       "bytes": 11231,
       "sha256": "46b0b567730ab73cd6f0d05368d602aabff0e17b1d7ec63fad3315113f4f3f40",
       "colorIndex": 1
     },
     {
       "name": "Hi-Hat",
-      "file": "sounds/hi-hat.m4a",
+      "file": "hi-hat.m4a",
       "bytes": 7784,
       "sha256": "de0619371d8a77c86d4b037516f36dd5f7e3a7ed3a185caf455924b633fa1f55",
       "colorIndex": 2
     },
     {
       "name": "Clap",
-      "file": "sounds/clap.m4a",
+      "file": "clap.m4a",
       "bytes": 12895,
       "sha256": "cc6284570a7703952347f2214674251f2a4e8989f2f1427d9fb513e669b27974",
       "colorIndex": 3
     },
     {
       "name": "Tom",
-      "file": "sounds/tom.m4a",
+      "file": "tom.m4a",
       "bytes": 9424,
       "sha256": "cf89e6928eee6e414dac71ad31c1f9d9a0cb0660e9f32447de331ce0e972bc1b",
       "colorIndex": 4
     },
     {
       "name": "Cowbell",
-      "file": "sounds/cowbell.m4a",
+      "file": "cowbell.m4a",
       "bytes": 13826,
       "sha256": "4954c82b4402ed8a51ce91d62ecf0d96a926d093f4c42d577718130544220675",
       "colorIndex": 5

@@ -4,7 +4,7 @@
 For every packs/<id>/pack.yml this script:
   * converts each source audio file in packs/<id>/ to AAC at packs/<id>/sounds/<slug>.m4a
   * rejects any sound longer than MAX_DURATION seconds
-  * writes packs/<id>/pack.json, bumping "version" when anything in it changes
+  * writes packs/<id>/sounds/pack.json (next to the audio, with bare file names), bumping "version" when anything in it changes
 and then writes index.json at the repository root.
 
 Requires only the Python standard library and macOS's afconvert/afinfo.
@@ -316,7 +316,7 @@ def build_pack(pack_dir, cache):
         keep.add(key)
         sounds.append({
             "name": name,
-            "file": f"sounds/{out.name}",
+            "file": out.name,  # bare name: the app resolves it next to pack.json and rejects paths
             "bytes": out.stat().st_size,
             "sha256": out_hash,
             "colorIndex": color,
@@ -339,7 +339,7 @@ def build_pack(pack_dir, cache):
         "palette": config["palette"],
         "sounds": sounds,
     }
-    previous = load_json(pack_dir / "pack.json", None)
+    previous = load_json(pack_dir / "sounds" / "pack.json", None)
     if previous:
         old_version = previous.get("version", 0)
         unchanged = {k: v for k, v in previous.items() if k != "version"} == {
@@ -371,7 +371,7 @@ def main():
 
     # Only write manifests once every pack has built, so pack.json and index.json stay in sync.
     for m in manifests:
-        write_json(PACKS_DIR / m["id"] / "pack.json", m)
+        write_json(PACKS_DIR / m["id"] / "sounds" / "pack.json", m)
 
     # Drop cache entries for packs that no longer exist.
     cache = {k: v for k, v in cache.items() if (ROOT / k).exists()}
@@ -388,7 +388,7 @@ def main():
                 "palette": m["palette"],
                 "soundCount": len(m["sounds"]),
                 "totalBytes": sum(s["bytes"] for s in m["sounds"]),
-                "manifest": f"packs/{m['id']}/pack.json",
+                "manifest": f"packs/{m['id']}/sounds/pack.json",
             }
             for m in manifests
         ],

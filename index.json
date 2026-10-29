@@ -18,7 +18,7 @@
       },
       "soundCount": 5,
       "totalBytes": 80758,
-      "manifest": "packs/arcade-starter/pack.json"
+      "manifest": "packs/arcade-starter/sounds/pack.json"
     },
     {
       "id": "drum-machine",
@@ -38,7 +38,7 @@
       },
       "soundCount": 6,
       "totalBytes": 62242,
-      "manifest": "packs/drum-machine/pack.json"
+      "manifest": "packs/drum-machine/sounds/pack.json"
     }
   ]
 }

@@ -17,35 +17,35 @@
   "sounds": [
     {
       "name": "Coin",
-      "file": "sounds/coin.m4a",
+      "file": "coin.m4a",
       "bytes": 11426,
       "sha256": "00e921cea68b2f168f8c5b6b57051ee5dbb3479a9c601d52e558586f222f2ac5",
       "colorIndex": 0
     },
     {
       "name": "Power Up",
-      "file": "sounds/power-up.m4a",
+      "file": "power-up.m4a",
       "bytes": 17230,
       "sha256": "2ade47dfd54b419ce305647c57ac05823c5ab65698413f69dcde4ca08326762a",
       "colorIndex": 2
     },
     {
       "name": "Laser",
-      "file": "sounds/laser.m4a",
+      "file": "laser.m4a",
       "bytes": 11942,
       "sha256": "a9307b47336ff569ebf73d6541ecee4b2c0cbbd8aba38507138da0bf67c6a005",
       "colorIndex": 4
     },
     {
       "name": "Boom",
-      "file": "sounds/boom.m4a",
+      "file": "boom.m4a",
       "bytes": 25013,
       "sha256": "c46973495b962ba7aa25a16b6bfee993077b2c609ed14b76d7ea55bc413302b1",
       "colorIndex": 0
     },
     {
       "name": "Chime",
-      "file": "sounds/chime.m4a",
+      "file": "chime.m4a",
       "bytes": 15147,
       "sha256": "70e93b1257fa26dc5021ae466511bed08409517eb715418b27d9cdeb6d4d861a",
       "colorIndex": 3
